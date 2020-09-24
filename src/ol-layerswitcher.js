@@ -42,7 +42,7 @@ export default class LayerSwitcher extends Control {
 
     this.activationMode = options.activationMode || 'mouseover';
 
-    this.startActive = options.startActive === true;
+    this.startActive = options.startActive === false;
 
     // TODO Next: Rename to showButtonContent
     const label = options.label !== undefined ? options.label : '';
